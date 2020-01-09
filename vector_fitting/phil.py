@@ -240,7 +240,7 @@ if __name__ == '__main__':
     # Substitute your source of data as needed
 
     # Note our independent variable lies along the imaginary axis
-    test_s = 1j * np.linspace(1, 1e5, 800)
+    test_s = 1j * linspace(1, 1e5, 800)
 
     # Poles are produced in complex conjugate pairs
     test_poles = [
